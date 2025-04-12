@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="te">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <title>తేజస్ వాయిస్ అసిస్టెంట్</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>నమస్తే తేజస్ ఆయాన్</h1>
-  <button onclick="toggleVoiceMode()">Voice Mode: <span id='mode'>Real</span></button>
-  <div class="menu">
-    <h2>శ్లోకాల విభాగాలు</h2>
+  <img src="assets/icon.png" alt="Tejas Icon" class="krishna-icon"/>
+  <h1>హాయ్! నేను తేజస్ సహాయకుడు</h1>
+  <input type="text" id="childNameInput" placeholder="పేరు నమోదు చేయండి" />
+  <button onclick="startAssistant()">ప్రారంభించు</button>
+  <br><br>
+  <button onclick="toggleVoiceMode()">Voice: <span id='voiceMode'>Female</span></button>
+  <div id="menu" class="hidden">
+    <button onclick="playGreeting()">శుభాకాంక్షలు చెప్పు</button>
     <button onclick="playAudio('Gita_2_47')">భగవద్గీత 2.47</button>
-    <button onclick="playAudio('Gita_4_7')">భగవద్గీత 4.7</button>
-    <button onclick="playAudio('Gita_18_66')">భగవద్గీత 18.66</button>
     <button onclick="playAudio('Ganesha_Prayer')">గణేశుడు</button>
-    <button onclick="playAudio('Krishna_Prayer')">కృష్ణుడు</button>
-    <button onclick="playAudio('Vishnu_Prayer')">విష్ణువు</button>
-    <br/><button onclick="playAll()">Play All</button>
+    <button onclick="playAll()">యాదృచ్ఛికంగా ప్లే చేయి</button>
   </div>
   <script src="app.js"></script>
 </body>

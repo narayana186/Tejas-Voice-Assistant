@@ -1,18 +1,30 @@
+
 body {
   font-family: sans-serif;
-  background-color: #fffce8;
+  background-color: #fffbe6;
   text-align: center;
   padding: 2rem;
 }
+.krishna-icon {
+  width: 120px;
+  margin-bottom: 10px;
+}
 button {
-  padding: 10px 20px;
-  margin: 5px;
+  padding: 12px 20px;
+  margin: 6px;
   font-size: 1rem;
-  border-radius: 6px;
+  border-radius: 10px;
   background-color: #ffc107;
+  color: #333;
   border: none;
   cursor: pointer;
 }
-h1, h2 {
-  color: #5d4037;
+input {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+.hidden {
+  display: none;
 }

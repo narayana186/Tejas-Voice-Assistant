@@ -1,2 +1,2 @@
-# Tejas Assistant v2 Full Version
-All features embedded: audio, TTS, play all, repeat, toggle, UI, and category buttons.
+# Tejas Assistant v2 - Personalized Version with Name and Voice Toggle
+Includes child name greeting, voice style toggle, SPB-style and female TTS options.
