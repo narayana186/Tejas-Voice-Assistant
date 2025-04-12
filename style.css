@@ -1,33 +1,18 @@
 body {
-  font-family: 'Baloo Tamma 2', cursive;
-  background: #fff8e1;
+  font-family: sans-serif;
+  background-color: #fffce8;
   text-align: center;
   padding: 2rem;
-}
-.app-container {
-  max-width: 600px;
-  margin: auto;
-}
-.krishna-icon {
-  width: 120px;
-  border-radius: 12px;
-  margin-bottom: 20px;
 }
 button {
   padding: 10px 20px;
   margin: 5px;
   font-size: 1rem;
-  border-radius: 8px;
+  border-radius: 6px;
   background-color: #ffc107;
   border: none;
   cursor: pointer;
 }
-input {
-  padding: 10px;
-  border-radius: 6px;
-  border: 1px solid #ccc;
-  margin-bottom: 10px;
-}
-.hidden {
-  display: none;
+h1, h2 {
+  color: #5d4037;
 }

@@ -2,25 +2,22 @@
 <html lang="te">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>తేజస్ Voice Assistant</title>
+  <title>తేజస్ వాయిస్ అసిస్టెంట్</title>
   <link rel="stylesheet" href="style.css" />
-  <link rel="manifest" href="manifest.json" />
 </head>
 <body>
-  <div class="app-container">
-    <img src="assets/icon.png" alt="Tejas Icon" class="krishna-icon"/>
-    <h1>హాయ్! నేను తేజస్ సహాయకుడు</h1>
-    <input type="text" id="childNameInput" placeholder="పిల్లవాడి పేరు నమోదు చేయండి" />
-    <button onclick="startAssistant()">ప్రారంభించు</button>
-    <div id="menu" class="hidden">
-      <button onclick="startStoryMode()">కథలు</button>
-      <button onclick="startShlokaMode()">శ్లోకాలు</button>
-      <button onclick="playRandom()">యాదృచ్ఛికంగా ప్లే చేయి</button>
-    </div>
-    <p id="responseText"></p>
+  <h1>నమస్తే తేజస్ ఆయాన్</h1>
+  <button onclick="toggleVoiceMode()">Voice Mode: <span id='mode'>Real</span></button>
+  <div class="menu">
+    <h2>శ్లోకాల విభాగాలు</h2>
+    <button onclick="playAudio('Gita_2_47')">భగవద్గీత 2.47</button>
+    <button onclick="playAudio('Gita_4_7')">భగవద్గీత 4.7</button>
+    <button onclick="playAudio('Gita_18_66')">భగవద్గీత 18.66</button>
+    <button onclick="playAudio('Ganesha_Prayer')">గణేశుడు</button>
+    <button onclick="playAudio('Krishna_Prayer')">కృష్ణుడు</button>
+    <button onclick="playAudio('Vishnu_Prayer')">విష్ణువు</button>
+    <br/><button onclick="playAll()">Play All</button>
   </div>
-  <script src="shlokas.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
